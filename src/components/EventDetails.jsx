@@ -13,6 +13,7 @@ function EventDetails() {
 	return (
 		<>
 			<Container className="mt-5 py-5 m-5">
+                <h1 className="py-3">Event Details </h1>
 				<Details event={event} />
 			</Container>
 		</>
