@@ -18,8 +18,14 @@ function Details(props) {
 					<Card.Body>
 						<Card.Title>{event.name}</Card.Title>
 
-						<Card.Text> Description : {event.description}</Card.Text>
-						<Card.Text>Price : {event.price}</Card.Text>
+						<Card.Text>
+							<b>Description :</b>
+							<br /> <p className="mx-5"> {event.description}</p>
+						</Card.Text>
+						<Card.Text>
+							<b>Price :</b>
+							<br /> <p className="mx-5">{event.price} DT</p>
+						</Card.Text>
 					</Card.Body>
 				</Col>
 			</Row>
